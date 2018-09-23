@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+    <id>${speech_data.item_id}</id>
+    <type>${speech_data.item_type}</type>
+    <status>${speech_data.speech_audio_status()}</status>
+    <text>${unicode(speech_data.item_text,"utf-8")}</text>
+    <audio>${speech_data.speech_audio_url()}</audio>
+</item>
